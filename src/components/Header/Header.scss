@@ -1,0 +1,28 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #f00;
+
+
+
+nav {
+  background-color: $primary-color;
+  height: 66px;
+  line-height: 64px;
+}
+
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  @media only screen and (min-width: 601px) {
+    height: 96px;
+    line-height: 84px;
+  }
+}
+
+
+nav .brand-logo{
+  left: 2%;
+  top: 10%;
+  @media only screen and (max-width: 992px) {
+    -webkit-transform: inherit;
+    transform: inherit;
+  }
+}
