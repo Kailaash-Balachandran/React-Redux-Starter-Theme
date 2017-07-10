@@ -9,8 +9,8 @@ nav {
     line-height: 84px; } }
 
 nav .brand-logo {
-  left: 2%;
-  top: 10%; }
+  left: 1%;
+  top: 11%; }
   @media only screen and (max-width: 992px) {
     nav .brand-logo {
       -webkit-transform: inherit;

@@ -20,12 +20,14 @@ class Header extends Component {
                 </div>
 
 
-                <div className="col s6">
+                <div className="col s6 center hide-on-med-and-down">
                   <Login />
                 </div>
 
                 <div className="col s3 brand-logo hide-on-med-and-down">
-                    <img className="responsive-img right" src={DefaultLogo} />
+                  <a href="#" className="right">
+                    <img className="responsive-img" src={DefaultLogo} />
+                  </a>
                 </div>
 
             </div>

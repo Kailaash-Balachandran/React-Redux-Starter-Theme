@@ -1,10 +1,77 @@
+@import "../../../assets/css/Shared.scss";
+
 
 .label  {
   display: inline-block;
   color: #fff;
-  margin-right: 8px;
   font: 18px SparkasseWeb,Helvetica,Arial,sans-serif;
-  line-height: 36px;
-  padding: 2px 0;
+  line-height: 26px;
   height: 36px;
+}
+
+
+
+
+
+div.login:before {
+    font: 26px/81% Pictos-IF;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    content: ">";
+    top: 0;
+}
+
+.login-row {
+  height: 30px !important;
+}
+
+.jetzt-register-row {
+  max-height: 20px;
+}
+
+.no-touch .loginlogout div.login:hover:before, .no-touch .loginlogout div.login:hover:after, .loginlogout div.login.focus:before, .loginlogout div.login.focus:after, .no-touch .loginlogout .header-loginlink div.login:hover:after {
+    color: $primary-color;
+    background-color: #fff;
+    top: 0;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+   background-color : #fff;
+   height: 2.2rem;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: black;
+   top: 0;
+}
+
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label {
+  color: $primary-color;
+}
+
+.input-field input[type=text]:focus, .input-field input[type=password]:focus {
+  border-bottom: 1px solid $primary-color !important;
+  box-shadow: 0 1px 0 0 $primary-color !important
+}
+
+
+::-webkit-input-placeholder {
+   text-align: -webkit-left;;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: -webkit-left;;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: -webkit-left;;
+}
+
+:-ms-input-placeholder {
+   text-align: -webkit-left;;
 }

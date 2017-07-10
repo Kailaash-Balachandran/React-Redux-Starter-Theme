@@ -1,5 +1,6 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #f00;
+$top-height: 11%;
 
 
 
@@ -19,8 +20,8 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 
 
 nav .brand-logo{
-  left: 2%;
-  top: 10%;
+  left: 1%;
+  top: $top-height;
   @media only screen and (max-width: 992px) {
     -webkit-transform: inherit;
     transform: inherit;
