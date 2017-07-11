@@ -1,16 +1,15 @@
-nav {
-  background-color: #f00;
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  background-color: #0092ad;
   height: 66px;
   line-height: 64px; }
-
-@media only screen and (min-width: 601px) {
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 96px;
-    line-height: 84px; } }
+  @media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 96px;
+      line-height: 96px; } }
 
 nav .brand-logo {
   left: 1%;
-  top: 11%; }
+  top: 1%; }
   @media only screen and (max-width: 992px) {
     nav .brand-logo {
       -webkit-transform: inherit;

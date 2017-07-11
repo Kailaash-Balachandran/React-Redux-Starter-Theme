@@ -6,7 +6,7 @@ import Header from '../../components/Header/';
 class HeaderContainer extends Component {
   render() {
     return (
-      <div className="HeaderContainer">
+      <div className="header-container">
         <Header />
       </div>
     );
